@@ -1,0 +1,240 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    font-style:oblique;
+}
+#header{
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom-style: groove;
+    border-top-style: groove;
+    border-color: rgb(139, 134, 134);
+}
+#img-fruit{
+    height: 100px;
+    width: 100px;
+}
+#text-title{
+    margin-left: 500px;   
+    color: rgb(85, 83, 83);
+}
+#text-details{
+    margin-left: -300px;
+    margin-right: 280px;
+    color: rgb(121, 118, 118);  
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 20px;
+}
+#details2{
+    color: rgb(103, 14, 187);
+    margin-top: 30px;
+    margin-left: 60px;
+}
+#one{
+    display: flex;
+    gap: 100px;
+}
+.list-once-fruit{
+    border-color: grey;
+    border-style: groove;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 70px;
+}
+#color-one{
+    display: flex;
+    background: rgb(198, 230, 198);
+    gap: 290px;
+    border-bottom-style: groove;
+    border-color: rgb(30, 112, 44);
+}
+#one-f{    
+    color: rgb(45, 88, 48);
+}
+#num-fruits{
+    border-style:groove;
+    border-color: rgb(22, 77, 54);
+    background-color: rgb(79, 139, 106);
+    border-radius: 20px;
+    color: white;
+    padding: 0px 5px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+#apple{
+    margin-top:30px;
+    margin-left: 40px;
+    color: rgb(182, 2, 2);
+    font-size: 20px;
+
+}
+.image{
+    display: flex;
+    gap: 30px;
+    border-color: black;
+    border-bottom-style: groove;
+}
+#img-apple{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+#grapes{
+    margin-top:30px;
+    margin-left: 40px;
+    color: rgb(121, 3, 111);
+    font-size: 20px;
+}
+#img-grapes{
+    height: 40px;
+    width: 45px;
+    margin-top: 20px;
+}
+#color-two{
+    display: flex;
+    background: rgb(223, 202, 221);
+    border-bottom-style: groove;
+    border-color: rgb(43, 10, 43);
+    gap: 290px;
+}
+#two-f{
+    color:rgb(71, 15, 122);
+}
+#num-fruits2{
+    border-style:groove;
+    border-color: rgb(121, 74, 131);
+    background-color: rgb(122, 79, 139);
+    border-radius: 20px;
+    color: white;
+    padding: 0px 5px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+#orange{
+    margin-top:30px;
+    margin-left: 40px;
+    color: rgb(253, 129, 12);
+    font-size: 20px;
+}
+#banana{
+    margin-top:30px;
+    margin-left: 40px;
+    color: rgb(211, 197, 4);
+    font-size: 20px;
+}
+#two{
+    display: flex;
+    gap: 100px;
+}
+.add{
+    border-style: groove;
+    border-color: grey;
+    border-radius: 10px;
+    background-color: rgb(238, 237, 237);
+    width: 40%;
+    margin-left: 70px;
+}
+.add-f{
+    margin-left: 320px;
+    font-weight: bold;
+}
+.add-fruit{
+    display: flex;
+    gap:3px;
+}
+.add-afruit{
+    height: 35px;
+    width: 45px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.add-input{
+    width: 330px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    text-align: right;
+    padding: 6px;
+    border-color: grey;
+    border-radius: 8px;
+}
+#add-button1{
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: rgb(16, 77, 16);
+    color: white;
+}
+#add-button1:active{
+    background-color: white;
+    color: rgb(16, 77, 16);
+}
+#add-button2{
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: rgb(80, 18, 104);
+    color: white;
+}
+#add-button2:active{
+    background-color: white;
+    color: rgb(80, 18, 104);
+}
+#two-in-one{
+    border-style: groove ;
+    padding: 10px 5px;
+    border-color: rgb(190, 192, 192);
+    border-radius: 10px;
+    background-color: rgb(228, 227, 227);
+}
+#all-list-fruit{
+    text-align: center;
+    margin-top: 3px;
+    color: rgb(13, 13, 141);
+    font-size: 35px;
+    font-weight: bold;
+}
+#but-fruits{
+    display:flex;
+    gap:100px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#two-list{
+    background-color: rgb(84, 17, 146);
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(66, 5, 163);
+    font-weight: bold;
+    margin-top: -15px;
+}
+#two-list:active{
+    background-color: white;
+    color: blueviolet;
+    font-weight: bold;
+}
+.many-f{
+    color: rgb(73, 17, 126);
+    border-style: groove;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+}
+.image p {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: blueviolet;
+}
